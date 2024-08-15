@@ -1,24 +1,52 @@
 <html>
   <head>
-
-  
     <style>
       body {
-        background-color: #141414;
+        background-color:#141414 ;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-family: 'Open Sans', 'Helvetica Neue', sans-serif
+        font-family: "Open Sans", "Helvetica Neue", sans-serif;
+        max-width: 250px;        
       }
 
-      img {background-color: red;}
+      img {
+        background-color: red;
+        display: flex;
+        max-width: 150px;
+        border-radius: 5px;
+        padding:20px;
+    }
+
+      h1 {
+        color: white;
+        font-size: 20px;
+        justify-content: center;
+        text-align: center;
+      }
+
+      h2 {Color:white;
+        font-size: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    .flexbox {
+        background: rgb(51, 51, 51);
+        padding:50px;
+        justify-content: center;
+        align-items: center;
+        margin: 16px;
+    }
     </style>
   </head>
   <body>
-
+    <div class="flexbox">
     <div class="img">
-    <Img src="take2-logo.svg" alt="logo">
-        <h1>Learn</h1>
-
+      <img src="take2-logo.svg" alt="logo" />
+      </div>
+      <div class="Words"><h1>Learn by doing</h1>
+      <h2>Let's go</h2></div>
     </div>
+</div>
   </body>
+</html>
